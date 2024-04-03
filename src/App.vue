@@ -1,10 +1,14 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
 export default {
-  name: 'Vite-Boolfolio'
+  name: 'Vite-Boolfolio',
+  components: {
+    AppHeader
+  }
 }
 </script>
 
 <template>
-  <div class="text-danger container">Ciao</div>
+  <AppHeader />
 </template>
 <style></style>
